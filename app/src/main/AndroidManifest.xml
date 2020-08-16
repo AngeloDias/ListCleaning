@@ -10,11 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
         <service
             android:name=".MyService"
             android:enabled="true"
             android:exported="true" />
-
     </application>
 
 </manifest>
